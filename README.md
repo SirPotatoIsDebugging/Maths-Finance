@@ -14,4 +14,9 @@ This project is composed of 2 files. The first one, "l2 data collector" establis
 Then comes the 2. part of the project. This is the "L2 data analysis" file, where the data gets read and outputs following data: 
 1. The order book data: Volume, Orderbook inbalance and midprice
 2. The "future returns" compared to the order book inbalance
+This is then put into a matplotlib graph.
 
+2. Portfolio optimisation
+   The main goal of my portfolio optimisation program is to maximise sharpe ratio.
+   The sharpe ratio is the risk adjusted return, it basically finds the best risk- to return ratio.
+   
