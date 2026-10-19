@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import datetime as dt
 
 
-print("PORTFOLIO OPTIMIZATION CODED AT A CRISP 9 PM by Sir Potato")
+print("PORTFOLIO OPTIMIZATION ;)")
 stock_symbols = input("Enter the stock symbols separated by commas (e.g., AAPL,MSFT,GOOGL): ").split(',')
 period = input("Enter the period for historical data (e.g., 1y, 6mo, 3mo): ")
 capital = float(input("Enter the capital to invest: "))
