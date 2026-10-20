@@ -23,4 +23,6 @@ This is then put into a matplotlib graph.
 The main goal of my portfolio optimisation program is to maximise sharpe ratio.
 The sharpe ratio is the risk adjusted return, it basically finds the best risk- to return ratio.
 The program takes the past stock prices, downloaded via yfinance library, and calculates the annualized volatility of the stock.
+I have attempted to move on from this past returns model to the EMWA model. This is because past returns are a very noisy metric.
+EMWA is the Exponentially Weighted Average. This means that the newest stock prices are weighted heavier than the older ones.
    
