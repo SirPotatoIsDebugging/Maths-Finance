@@ -30,4 +30,4 @@ EMWA is the Exponentially Weighted Average. This means that the newest stock pri
 
 3. Black Scholes
 
-   The Black-Scholes-Merton model is a way to calculate call and put options. These options are contracts that give you the right to buy/sell you a stock at a given price in the future. A call option is like a buy, a put like a sell. Before this model, which won the 1997 Economics Nobel Prize, traders primarily used binomial trees and other methods. 
+   The Black-Scholes-Merton model is a way to calculate call and put options. These options are contracts that give you the right to buy/sell you a stock at a given price in the future. A call option is like a buy, a put like a sell. Before this model, which won the 1997 Economics Nobel Prize, traders primarily used binomial trees and other methods to calculate the call and put price. The program takes the past stock data and calculates the log-normal volatility, annualized, of the stock. This is then fed into the formula, along with the other parameters, which are all fetched from yfinance. Then it outputs a Call/put option price P with the "greeks", a set of risk-analysis metrics.
